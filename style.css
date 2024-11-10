@@ -7,7 +7,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
 header {
   background: linear-gradient(135deg, #2a7b4c, #4caf50);
   color: white;
@@ -43,8 +42,6 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #d4f7dd;
 }
-
-/* Main content */
 main {
   max-width: 900px;
   margin: 30px auto;
@@ -57,19 +54,17 @@ main {
 section {
   margin-bottom: 25px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
+  border-bottom: 1px solid #ccc;
 
 section:last-child {
   border-bottom: none;
 }
 
 h2 {
-  color: #4b472b;
+  color: #2a7b4c;
   margin-top: 0;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 20px;
