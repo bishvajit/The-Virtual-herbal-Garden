@@ -7,6 +7,7 @@ body {
   line-height: 1.6;
 }
 
+
 header {
   background: linear-gradient(135deg, #2a7b4c, #4caf50);
   color: white;
@@ -42,6 +43,7 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #d4f7dd;
 }
+
 main {
   max-width: 900px;
   margin: 30px auto;
@@ -51,19 +53,34 @@ main {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+
 section {
   margin-bottom: 25px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-
-section:last-child {
-  border-bottom: none;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc; 
 }
 
-h2 {
-  color: #2a7b4c;
+section h2 {
   margin-top: 0;
+  font-size: 1.5em;
 }
+
+section .caption {
+  font-style: italic;
+  font-size: 0.95em;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.intro { background: #e8f5e9; }
+.healing { background: #fff3e0; }
+.cultivating { background: #e3f2fd; }
+.harvesting { background: #fce4ec; }
+.remedies { background: #f3e5f5; }
+.lifestyle { background: #e0f7fa; }
+.future { background: #f9fbe7; }
+
 
 footer {
   text-align: center;
